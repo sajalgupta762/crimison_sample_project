@@ -1,0 +1,15 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   >
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:text="@string/app_name"
+
+         android:title="@string/previously_started"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+</menu>
